@@ -8,7 +8,8 @@
 
         });
 		it('Check sum of number', function() {
+			//expect('quang').to.equal('anh');
 			expect(this.calculator.add(2, 5, 4)).to.equal(7);
 		});
 	});
-})()
+})();
